@@ -8,9 +8,9 @@
     // Load your images on page-load
     function preloader() {
         const imagesList = [
-           "./img/wind.jpeg",
-           "./img/rain.jpeg",
-           "./img/solar.jpeg"
+           "./wind.jpeg",
+           "./rain.jpeg",
+           "./solar.jpeg"
         ];
         const images = [];
         for (let i = 0; i < imagesList.length; i++) {
@@ -58,19 +58,19 @@
         wind: {
             headingContent: "Wind Energy",
             bodyText:"Investing in wind power does not mean you need to invest in a plethora of 70ft high wind turbines in your back yard. There are smaller, simpler and cheaper ways to harness zephir's power, that you can bring home with you. Small turbines are a fraction of the cost and can eventually bring back profit after a 5-6 year period, or sooner if you happen to live in a particullary windy place.",
-            imgUrl: "./img/wind.jpeg",
+            imgUrl: "./wind.jpeg",
             imgAlt:"wind turbine"
         },
          rain: {
             headingContent: "Harvest the Rain",
             bodyText:"We are all concious of the water we use, with the mantres of today's society of taking a quick shower instead of a bath, or making sure you only turn on the tap when you use it... One of the simpliest things you can do to make your house and garden more green.Literally! Having a small system to direct your guttering to a water storage container can save you alot of money throughout the year, as well as protecting the environment. The stored water can be used for non-potable uses, such as irigation, waste water for toilet flushes as well as keeping your garden lush and green through the year.",
-            imgUrl: "./img/rain.jpeg",
+            imgUrl: "./rain.jpeg",
             imgAlt:"Window pane rain"
         },
          solar: {
             headingContent: "Capture the Sun",
             bodyText:"Solar Pannels. When thinking of these blue and gold rectangles, reflected back at us is the eye watering prices. But, if you install a small set of pannels for simple tasks such as heating up water, you can save incredible amounts in electricity and gas bills, as well as the satisfaction of not using the two. As the years go on and the environment grows more and mroe to the forefront of our societal minds, the prices of solarpanels has also dropped, making it a viable option for the average family household.",
-            imgUrl: "./img/solar.jpeg",
+            imgUrl: "./solar.jpeg",
             imgAlt:"solar pannels and sky" 
         }
     }
