@@ -97,7 +97,7 @@ nav ul li a:hover {
 .mast-image {
     height: 14rem;
     background-color: #EDE8D8;
-    background-image: url(../img/renewable.png);
+    background-image: url(./renewable.png);
     background-size: cover;
 }
 
